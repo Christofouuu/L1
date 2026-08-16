@@ -1,0 +1,26 @@
+toujours commencer un programme par "#include <ncurses.h>" pour les programmes de type "ncurses"
+
+"initscr()" (= initialize screen) permet permet de créer un écran
+"printw()" permet d'introduire une chaîne de caractère
+"refresh()" rafraîchit la fenêtre courante afin de voir le message apparaître (toujours après un printw)
+"getch()" lors de l'appuie d'une touche du clavier , va réaliser la suite du programme
+"endwin()" (= end window) permet la fermeture de l'écran
+
+"move()" déplace le curseur
+"addch()" (= add charactere) permet d'ajouter une élément au niveau du curseur
+"LINES et COLS" = Lignes et Colonnes
+"mvaddch()" (= move added charactere) permet de placer un élément à un endroit précis
+"mvprintw()" permet de placer une chaîne de caractère a un endroit précis
+
+"attron()" point de départ permettant de changer la forme de la police (gras, souligner, inverser ...)
+"attroff()" point d'arriver permettant de changer la forme de la police
+/!\ "attroff" ne peut être utiliser que en présence d'un "attron"
+Inverse = attron(A_REVERSE);		Gras = A_BOlD		Souligner = A_UNDERLINE
+c'est possible de combiner chacune de ces formes de police
+
+pour initialiser les formats de couleurs il faut faire "start_color():" , après on indique les formats, par exemple: "init_pair(1, COLOR-RED, COLOR_CYAN);
+le "1" (1er élément dans la parenthèse) veut dire que c'est le format 1
+"COLOR_RED" (2ème élément dans la parenthèse) indique la couleur de la police
+"COLOR_CYAN" (3ème élément dans la parenthèse) indique la couleur de surlignage de la chaîne de caractère
+
+"curs_set(0)" permet de ne plus afficher le curseur (si on met un autre chiffre que 0 ou qu'on met pas cette fonction, alors le curseur clignotant sera présent)

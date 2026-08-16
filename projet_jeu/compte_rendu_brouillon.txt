@@ -1,0 +1,10 @@
+Le jeu dispose de 18 niveaux différents (+ 1 si on compte le tutoriel)
+
+Le but est de mémoriser ce qui est affiché brièvement : ca peut être des mots comme des nombres ou meme des caractères.
+Pour autant le jeu serait assez simple si il n'y avait qu'une seule chaîne de caractère affiché; c'est pourquoi dans certains niveaux la difficulté augmente en réduisant le temps d'apparition des mots, en augmentant le nombre de chaîne de caractère qui vont appaître sur votre écran.
+
+chaque niveau est initialisé dans une fonction, dans chaque fonction de niveau, vous pourrez retrouver plusieurs fonction utilisé :
+- niv_suivant => qui attend que l'utilisateur soit prêt avant de lancer le niveau
+- car (= compte à rebours) => fait un décompte à partir de 3 avant de lancer le niveau
+- vie => qui prend 1 pointeur (nb_vie = le nombre de vie du joueur), cette fonction s'active lorsque le joueur fait une erreur et baisse alors son nombre de vie et affiche un message qui diffère en fonction du nombre de vie du joueur
+

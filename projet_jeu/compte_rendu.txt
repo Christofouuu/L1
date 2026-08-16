@@ -1,0 +1,6 @@
+Bonjour et Bienvenue dans ce jeu.
+Le but de ce jeu est de regarder une chaîne de caractère qui apparaît et la mémorisé le temps du niveau. Le jeu peut parraître simple aux premiers abords, mais la difficulté augmente avec les niveaux et les chapitres.
+J'ai choisie de créer ce jeu car quand j'étais au lycée j'avais créer un jeu similaire sur ma calculatrice (une Ti-82) et malheureusement après avoir changée les piles, le jeu s'est effacé. Lorsqu'on m'a proposé de coder un jeu, j'ai tout de suite sauté sur l'occasion pour faire rennaître ce jeu mais avec une meilleure version de celle-ci.
+
+Pour lancer le jeu il suffit de compiler le jeu comme d'habitude et juste de rajouter à la toute fin "-lncurses" car le jeu est codé en lncurses. Ces mots sont donc nécessaire pour le bon fonctionnement du jeu.
+
