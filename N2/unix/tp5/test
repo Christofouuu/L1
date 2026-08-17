@@ -1,0 +1,6 @@
+#!/bin/sh
+#compteur=0
+#somme=0
+for compteur ; do
+	printf '%s\n' "$compteur"
+done

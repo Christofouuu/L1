@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "Quel jour de la semaine sommes-nous aujourd'hui ?"
+read jour
+case $jour in
+*[Ll][Uu][Nn][Dd][Ii]* | *[Mm][Aa][Rr][Dd][Ii]* | *[Mm][Ee][Rr][Cc][Rr][Ee][Dd][Ii]* | *[Jj][Ee][Uu][Dd][Ii]* |  *[Vv][Ee][Nn][Rr][Ee][Dd][Ii]*)
+	echo "Au boulot!"
+	;;
+*[Ss][Aa][Mm][Ee][Dd][Ii]* | *[Dd][Ii][Mm][Aa][Nn][Cc][Hh][Ee]*)
+	echo "Week-end"
+	;;
+*)
+	echo "Au revoir"
+esac

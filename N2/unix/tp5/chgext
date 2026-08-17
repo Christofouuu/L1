@@ -1,0 +1,16 @@
+#!/bin/sh
+case $# in
+0 | 1)
+	printf 'Usage: chgext nouv_ext nom_fich...\n'
+	;;
+*)
+	ext=.$1
+	shift
+	for fic; do
+		IFS=.
+		set -- $fic
+		IFS='   '
+		mv $fic $1$ext
+	done
+	;;
+esac

@@ -1,0 +1,18 @@
+17 17
+MMMMMMMMMMMMMMMMM
+MP  M   M Q   M M
+M QQM M   Q MMM M
+M   M   Q     M M
+M M  MM M M MMM M
+M  Q    M M Q   M
+MQ  M M M M  QM M
+MQQ   M Q  Q  M M
+M   MMM   MMM M M
+M M     M       M
+M MMM M MMQ MMM M
+M   M Q M       M
+M Q MMM M M QMM M
+M Q     M M MB  M
+M Q MMM M M MMM M
+M   Q     M     M
+MMMMMMMMMMMMMMMMM

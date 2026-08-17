@@ -1,0 +1,24 @@
+#!/bin/sh
+#compteur=0
+somme=0
+case $# in
+0) 
+	printf '0\n'
+	;;
+*)
+	for compteur; do
+		case $compteur in 
+		--help) 
+			printf 'Usage: somme [NUM]...\nAfficher la somme des nombres entiers donnés en argument.\n'
+			exit
+			;;
+		*[!0-9]*)
+			printf 'Attention, argument %s non numérique\n' "$compteur"
+			;;
+		*)
+			somme=$(($somme + $compteur))
+			;;
+		esac
+	done
+	printf '%d\n' $somme
+esac

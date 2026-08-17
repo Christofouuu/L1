@@ -1,0 +1,17 @@
+#!/bin/sh
+for arg; do
+	IFS='/'
+	set -- $arg
+	shift $(($# -1))
+	case $1 in
+	'')
+		shift $(($# -1))
+		printf '/%s\n' "$1" 
+		IFS=:
+		;;
+	*)
+	printf '/%s\n' "$1" 
+		IFS=:
+		;;
+	esac
+done

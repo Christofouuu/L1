@@ -1,0 +1,7 @@
+#!/bin/sh
+printf 'Nom de commande : %s\n' "$0"
+i=0
+for val; do
+	i=$(( $i + 1 ))
+	printf 'arg. n° %d : %s\n' "$i" "$val"
+done

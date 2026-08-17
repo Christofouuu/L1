@@ -1,0 +1,2 @@
+#!/bin/sh
+printf 'FOO=%s\n' "$FOO"

@@ -1,0 +1,8 @@
+#!/bin/sh
+compteur=0
+for fichier in *
+do
+	compteur=$(($compteur + 1))
+	printf 'fichier numéro %d : %s\n' $compteur "$fichier"
+done
+printf 'Nombre total de fichiers : %d\n' $compteur

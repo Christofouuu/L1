@@ -1,0 +1,15 @@
+#!/bin/sh
+case $# in
+0 | 1)
+	printf 'Usage: suffixer suffixe chaine...\n'
+	;;
+*)
+	suffixe=$1
+	shift
+	for chaine; do
+		printf '%s%s\n' "$1" "$suffixe"
+		shift
+	done
+	;;
+esac
+		

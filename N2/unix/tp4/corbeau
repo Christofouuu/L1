@@ -1,0 +1,12 @@
+#!/bin/sh
+total=0
+compteur=0
+for chaine in Maître corbeau 'sur un arbre' perché \
+	tenait 'en son bec' 'un fromage'
+do 
+	compteur=$(($compteur + 1))
+	printf 'chaine numéro %d : %s\n' $compteur "$chaine : longueur ${#chaine}"
+	total=$(( $total + ${#chaine} ))
+done
+
+printf 'longueur totale : %d\n' $total

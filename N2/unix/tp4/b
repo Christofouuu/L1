@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "choisissez un nombre qui sera multiplié 4 fois par lui même"
+read nombre
+tmp=$nombre
+for i in 1 1 1
+do
+	printf '%d * %d = %d\n' $nombre $tmp $(($tmp*$nombre))
+	tmp=$(($nombre * $tmp))
+done

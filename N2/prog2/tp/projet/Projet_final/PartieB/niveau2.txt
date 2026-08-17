@@ -1,0 +1,38 @@
+37 35
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+M  PM  TM M   M M M M M M M M M M M
+M MMM MQM QMM M M M M M M M M M M M
+M  QM   M   M   M   M   M   M   M M
+M M M MMM QMM MMM MMM TQQ MMM Q M M
+M M M   M   M   M   M   M   M   M M
+M M  MM M MMM M MMM M MMM M  MM M M
+M MQ    M     M     M     MQ    M M
+M M M MMM M MMQ M MMM MQMMM M MMM M
+M M M  QM   M   M   M   M   M Q M M
+M QM  M MQMM  M MMM M M MMM M M Q M
+M    QM M    QM  Q  M M     M M   M
+M M MQ  M MQMMT M MMM M M MMM M M M
+M M  QM   M   M   M   M   Q   M M M
+M  M  M MMQ M MMM M MMM M MMM M M M
+MQ  M   M   M  TM   M  QM   M   M M
+M T M MMM M MMMQM MMM M  MM MQMMM M
+M M M   M   M   M   M   M   M   M M
+M M QMM M M MMM M MMM M M MMQ M M M
+M M  Q  M M Q   M Q   M M     M M M
+M M M MMM M M MMM M MMM M M QQQ M M
+M M M Q M   M   M   M   M   M   MTM
+M QMQ M M MM  M MMM M M QMM M MMMQM
+M     M M    QM     M M     M     M
+M M MM  M T MMM Q MMM M M MMM M M M
+M M   M   M   M   M   M   Q   T M M
+M QMM M QMQ M MMQ M MMM M MMM M M M
+M   M   M   M   M   M Q M   M   M M
+M M M MM  M MMM M MMM M MMM M MMM M
+M M M   M   M   M   M   M   M   M M
+M M MMM M M MMMQMQMMM M M MMMQM M M
+M M Q   M M Q   M  Q  M MQ    M M M
+M M M MM  M M MMM M  M  M M MMM M M
+M M M   M   M   M   M  QT Q M   M M
+M  MQ M M MM  M QMM M MM  M MMQ M M
+MQ    Q M    QM     M    Q      QBM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM

@@ -1,0 +1,14 @@
+#!/bin/sh
+compteur=0
+printf "Nombre total d'arguments : %d\n" $#
+for chaine; do
+	compteur=$(($compteur + 1))
+	case $chaine in 
+	*[!0-9]*)
+		printf 'arg n°%d non numérique: %s\n' $compteur "$chaine"
+		;;
+	*)
+		printf 'arg n°%d numérique: %s\n' $compteur "$chaine"
+		;;
+	esac
+done

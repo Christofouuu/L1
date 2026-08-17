@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "choisissez un nombre entre 0 et 10"
+read nombre
+case $nombre in
+$(($nombre\<=10))) #| $(($nombre%2==0)))
+	echo "$nombre est pair"
+	;;
+#<10 | $(($nombre%2==1)))
+#	echo "$nombre est impair"
+#	;;
+\>10)
+	echo "$nombre est supérieur à 10."
+	;;
+esac
