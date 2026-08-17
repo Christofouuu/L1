@@ -1,0 +1,4 @@
+Chen Yuan Dong Théo 12212843
+Li Christophe 12205895
+
+Après avoir réalisé plusieurs testes sur les des fonctions avec des boucles imbriquées de 2 et 4, nous avons remarqué que la fonction avec 2 boucles était largement plus rapide (demandant moins de tours d'horloge et en temps en secondes) que celle avec 4 boucles imbriquées pour une grande tableau ou pour une valeur aléatoire  très grande.
